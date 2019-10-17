@@ -15,20 +15,22 @@ public class Customer {
 	String custType;
 	String email;
 	String Country;
-	String street;
-	String city;
+	Address address;
 
-	public Customer(String name, String custType, String email, String Country, String street, String city) {
+	public Customer(String name, String custType, String email, String Country) {
 		this.name = name;
 		this.custType = custType;
 		this.email = email;
 		this.Country = Country;
-		this.street = street;
-		this.city = city;
 	}
 
 	public String getStreet() {
-		return this.street;
+		return this.address.getStreet();
+	}
+
+	public void setAddress(String postalcity, String postalcode, String street, String streetNumber) {
+		this.address = new Address(postalcity, postalcode, street, streetNumber);
+
 	}
 
 }

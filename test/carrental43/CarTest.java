@@ -11,9 +11,6 @@ import static org.junit.Assert.*;
 public class CarTest {
 	Car myCar;
 	
-	public CarTest() {
-	}
-	
 	@Before
 	public void setUp() {
 		// public Car(String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year) 
