@@ -28,4 +28,10 @@ public class CustomerTest {
 		assertEquals(expected, actual);
 	}
 	
+	@Test
+	public void testgetAddress() {
+		String expected = "Vildgade 12";
+		String actual = myCustomer.Address.getStreet();
+		assertEquals(expected, actual);
+	}
 }
