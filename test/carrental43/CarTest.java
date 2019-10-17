@@ -16,6 +16,7 @@ public class CarTest {
 	
 	@Before
 	public void setUp() {
+		// public Car(String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year) 
 		// String make, String model, String type, int doors, int cyl, int HK, int MPG,int weight, int length, int year, int milage
 		//Obs;Make;Model;Cylinders;Horsepower;MPG_City;MPG_Highway;Weight;Wheelbase;Year;Milage
 		//1;Acura;MDX;6;265;17;23;4451;106;1997;19
@@ -29,6 +30,4 @@ public class CarTest {
 		String actual = myCar.getMake();
 		assertEquals(expected, actual);
 	}
-
-	
 }
