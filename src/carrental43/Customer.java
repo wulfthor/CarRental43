@@ -27,10 +27,23 @@ public class Customer {
 	public String getStreet() {
 		return this.address.getStreet();
 	}
+	public String getName() {
+		return this.name;
+	}
 
 	public void setAddress(String postalcity, String postalcode, String street, String streetNumber) {
 		this.address = new Address(postalcity, postalcode, street, streetNumber);
 
+	}
+
+	public String toString() {
+		String retVal;
+		retVal = "Name:  " + this.name + "\n";
+		retVal += "email:  " + this.email + "\n";
+		retVal += "custType:  " + this.custType + "\n";
+		retVal += "country:  " + this.Country + "\n";
+		retVal += "Address:  " + this.address + "\n";
+		return retVal;
 	}
 
 }

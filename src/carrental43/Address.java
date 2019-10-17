@@ -39,5 +39,11 @@ public class Address {
 	public String getPostalcity() {
 		return postalcity;
 	}
+	public String toString() {
+		String retVal;
+		retVal = this.street + " " + this.number;
+		retVal += this.postalcode + " " + this.postalcity;
+		return retVal;
+	} 
 	
 }
