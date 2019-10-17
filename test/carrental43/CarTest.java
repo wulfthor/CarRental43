@@ -24,7 +24,7 @@ public class CarTest {
 	}
 
 	@Test
-	public void testSomeMethod() {
+	public void testgetName() {
 		String expected = "Acura";
 		String actual = myCar.getMake();
 		assertEquals(expected, actual);
