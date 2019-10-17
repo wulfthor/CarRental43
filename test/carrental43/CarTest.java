@@ -24,11 +24,7 @@ public class CarTest {
 	}
 
 	@Test
-<<<<<<< HEAD
 	public void testgetMake() {
-=======
-	public void testgetMake() {
->>>>>>> 3bcaa059df41d0cfc465c8447f34ec110cff1baa
 		String expected = "Acura";
 		String actual = myCar.getMake();
 		assertEquals(expected, actual);
