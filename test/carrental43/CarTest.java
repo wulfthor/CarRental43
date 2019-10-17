@@ -24,7 +24,11 @@ public class CarTest {
 	}
 
 	@Test
+<<<<<<< HEAD
 	public void testgetMake() {
+=======
+	public void testgetName() {
+>>>>>>> first task
 		String expected = "Acura";
 		String actual = myCar.getMake();
 		assertEquals(expected, actual);
