@@ -29,9 +29,13 @@ public class Employee {
 	public ArrayList<Car> importCarsFromFilename(String filename) throws FileNotFoundException {
 		ArrayList<Car> myImpCars = new ArrayList<>();
 		Car tmpCar = null;
-		// Obs;Make;Model;Cylinders;Horsepower;MPG_City;MPG_Highway;Weight;Wheelbase;Year;Milage
-		// 380;Toyota;Corolla CE 4dr;4;130;32;40;2502;102;2016;12378
-		//String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year, int milage
+		/*
+		Data-reminder
+		
+		Obs;Make;Model;Cylinders;Horsepower;MPG_City;MPG_Highway;Weight;Wheelbase;Year;Milage
+		380;Toyota;Corolla CE 4dr;4;130;32;40;2502;102;2016;12378
+		String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year, int milage
+		*/
 		String line ="";
 		String[] lineArr = new String[12];
 		String[] typeArr = new String[3];
@@ -67,6 +71,7 @@ public class Employee {
 			int typecounter=0;
 			if (lineArr[2].contains("dr")) {
 				// TODO: should filter door-number with regex
+				// missing fields
 				doors = 2;
 				while(typecounter<limit-2) {
 					typecounter++;
@@ -79,11 +84,6 @@ public class Employee {
 					model += typeArr[typecounter];
 				}
 			}
-			/*
-			System.out.println(lineArr[2]);
-			System.out.println("MODEL: " + model);
-			System.out.println("MAKE: " + make);
-*/
 			// handle cyl
 			cyl = Integer.parseInt(lineArr[fieldcounter]);
 			fieldcounter++;
@@ -107,7 +107,6 @@ public class Employee {
 			milage = Integer.parseInt(lineArr[fieldcounter]);
 			fieldcounter++;
 			// now create car
-			//String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year, int milage
 			tmpCar = new Car(make,model,type,doors,cyl,HK,MPG,weight,length,year,milage);
 			myImpCars.add(tmpCar);
 		}
