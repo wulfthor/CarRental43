@@ -1,0 +1,69 @@
+curl -k -o "Audi.jpg" https://www.cars-data.com/design/images/cars-logo/audi-logo-small.jpg
+curl -k -o "Audi 100.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-100_78_1.jpg
+curl -k -o "Audi 100 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-100-avant_81_1.jpg
+curl -k -o "Audi 200.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-200_3568_1.jpg
+curl -k -o "Audi 200 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-200-avant_3569_1.jpg
+curl -k -o "Audi 80.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-80_89_1.jpg
+curl -k -o "Audi 80 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-80-avant_90_1.jpg
+curl -k -o "Audi 90.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-90_92_1.jpg
+curl -k -o "Audi A1.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a1_3258_1.jpg
+curl -k -o "Audi A1 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a1-sportback_4121_1.jpg
+curl -k -o "Audi A2.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a2_95_1.jpg
+curl -k -o "Audi A3.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a3_3704_1.jpg
+curl -k -o "Audi A3 Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a3-cabriolet_3715_1.jpg
+curl -k -o "Audi A3 Limousine.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a3-limousine_3711_1.jpg
+curl -k -o "Audi A3 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a3-sportback_3706_1.jpg
+curl -k -o "Audi A4.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a4_4124_1.jpg
+curl -k -o "Audi A4 Allroad.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a4-allroad_3719_1.jpg
+curl -k -o "Audi A4 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a4-avant_4125_1.jpg
+curl -k -o "Audi A4 Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a4-cabriolet_143_1.jpg
+curl -k -o "Audi A5 Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a5-cabriolet_3727_1.jpg
+curl -k -o "Audi A5 Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a5-coupe_3724_1.jpg
+curl -k -o "Audi A5 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a5-sportback_3725_1.jpg
+curl -k -o "Audi A6.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a6_4130_1.jpg
+curl -k -o "Audi A6 Allroad.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a6-allroad_3729_1.jpg
+curl -k -o "Audi A6 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a6-avant_4131_1.jpg
+curl -k -o "Audi A7 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a7-sportback_4132_1.jpg
+curl -k -o "Audi A8.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-a8_4133_1.jpg
+curl -k -o "Audi Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-cabriolet_206_1.jpg
+curl -k -o "Audi Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-coupe_211_1.jpg
+curl -k -o "Audi e-tron.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-e-tron_4134_1.jpg
+curl -k -o "Audi Q2.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-q2_3734_1.jpg
+curl -k -o "Audi Q3.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-q3_4135_1.jpg
+curl -k -o "Audi Q5.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-q5_3735_1.jpg
+curl -k -o "Audi Q7.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-q7_3270_1.jpg
+curl -k -o "Audi Q8.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-q8_4136_1.jpg
+curl -k -o "Audi Quattro.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-quattro_3737_1.jpg
+curl -k -o "Audi R8.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-r8_3403_1.jpg
+curl -k -o "Audi R8 Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-r8-coupe_3738_1.jpg
+curl -k -o "Audi R8 Spyder.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-r8-spyder_4137_1.jpg
+curl -k -o "Audi RS3 Limousine.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs3-limousine_4123_1.jpg
+curl -k -o "Audi RS3 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs3-sportback_4122_1.jpg
+curl -k -o "Audi RS4.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs4_119_1.jpg
+curl -k -o "Audi RS4 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs4-avant_4127_1.jpg
+curl -k -o "Audi RS4 Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs4-cabriolet_144_1.jpg
+curl -k -o "Audi RS5 Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs5-cabriolet_3142_1.jpg
+curl -k -o "Audi RS5 Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs5-coupe_4129_1.jpg
+curl -k -o "Audi RS5 Sportback.jpg" http://www.cars-data.com/design/images/no-image-170x113.jpg
+curl -k -o "Audi RS6.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs6_169_1.jpg
+curl -k -o "Audi RS6 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs6-avant_3732_1.jpg
+curl -k -o "Audi RS7 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-rs7-sportback_3267_1.jpg
+curl -k -o "Audi S1.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s1_3260_1.jpg
+curl -k -o "Audi S1 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s1-sportback_3263_1.jpg
+curl -k -o "Audi S3.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s3_3705_1.jpg
+curl -k -o "Audi S3 Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s3-cabriolet_3717_1.jpg
+curl -k -o "Audi S3 Limousine.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s3-limousine_3713_1.jpg
+curl -k -o "Audi S3 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s3-sportback_3709_1.jpg
+curl -k -o "Audi S4.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s4_3718_1.jpg
+curl -k -o "Audi S4 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s4-avant_3721_1.jpg
+curl -k -o "Audi S4 Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s4-cabriolet_146_1.jpg
+curl -k -o "Audi S5 Cabriolet.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s5-cabriolet_3728_1.jpg
+curl -k -o "Audi S5 Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s5-coupe_3726_1.jpg
+curl -k -o "Audi S5 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s5-sportback_3723_1.jpg
+curl -k -o "Audi S6.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s6_3265_1.jpg
+curl -k -o "Audi S6 Avant.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s6-avant_3733_1.jpg
+curl -k -o "Audi S7 Sportback.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s7-sportback_3268_1.jpg
+curl -k -o "Audi S8.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-s8_3145_1.jpg
+curl -k -o "Audi TT Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-tt-coupe_4138_1.jpg
+curl -k -o "Audi TT Roadster.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-tt-roadster_4139_1.jpg
+curl -k -o "Audi V8.jpg" https://www.cars-data.com/pictures/thumbs/350px/audi/audi-v8_3740_1.jpg

@@ -1,0 +1,47 @@
+curl -k -o "BMW.jpg" https://www.cars-data.com/design/images/cars-logo/bmw-logo-small.jpg
+curl -k -o "BMW 1-serie.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-1-serie_3276_1.jpg
+curl -k -o "BMW 1-serie Cabrio.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-1-serie-cabrio_242_1.jpg
+curl -k -o "BMW 1-serie Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-1-serie-coupe_240_1.jpg
+curl -k -o "BMW 2-serie Active Tourer.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-2-serie-active-tourer_4144_1.jpg
+curl -k -o "BMW 2-serie Cabrio.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-2-serie-cabrio_4143_1.jpg
+curl -k -o "BMW 2-serie Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-2-serie-coupe_4142_1.jpg
+curl -k -o "BMW 2-serie Gran Tourer.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-2-serie-gran-tourer_4145_1.jpg
+curl -k -o "BMW 3-serie.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-3-serie_4146_1.jpg
+curl -k -o "BMW 3-serie Cabrio.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-3-series-cabrio_271_1.jpg
+curl -k -o "BMW 3-serie Compact.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-3-serie-compact_244_1.jpg
+curl -k -o "BMW 3-serie Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-3-series-coupe_265_1.jpg
+curl -k -o "BMW 3-serie Gran Turismo.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-3-serie-gran-turismo_3742_1.jpg
+curl -k -o "BMW 3-serie Touring.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-3-serie-touring_4147_1.jpg
+curl -k -o "BMW 4-serie Cabrio.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-4-serie-cabrio_3746_1.jpg
+curl -k -o "BMW 4-serie Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-4-serie-coupe_3745_1.jpg
+curl -k -o "BMW 4-serie Gran Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-4-serie-gran-coupe_3744_1.jpg
+curl -k -o "BMW 5-serie.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-5-serie_3747_1.jpg
+curl -k -o "BMW 5-serie Gran Turismo.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-5-serie-gran-turismo_3153_1.jpg
+curl -k -o "BMW 5-serie Touring.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-5-serie-touring_3749_1.jpg
+curl -k -o "BMW 6-serie.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-6-serie_291_1.jpg
+curl -k -o "BMW 6-serie Cabrio.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-6-serie-cabrio_3282_1.jpg
+curl -k -o "BMW 6-serie Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-6-serie-coupe_3281_1.jpg
+curl -k -o "BMW 6-serie Gran Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-6-serie-gran-coupe_3280_1.jpg
+curl -k -o "BMW 6-serie GT.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-6-serie-gt_4148_1.jpg
+curl -k -o "BMW 7-serie.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-7-serie_4149_1.jpg
+curl -k -o "BMW 7-series.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-7-serie_296_1.jpg
+curl -k -o "BMW 8-serie.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-8-serie_306_1.jpg
+curl -k -o "BMW 8-serie Cabrio.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-8-serie-cabrio_4151_1.jpg
+curl -k -o "BMW 8-serie Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-8-serie-coupe_4150_1.jpg
+curl -k -o "BMW i3.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-i3_4152_1.jpg
+curl -k -o "BMW i8.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-i8_3409_1.jpg
+curl -k -o "BMW i8 Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-i8-coupe_4153_1.jpg
+curl -k -o "BMW i8 Roadster.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-i8-roadster_4154_1.jpg
+curl -k -o "BMW X1.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-x1_4155_1.jpg
+curl -k -o "BMW X2.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-x2_4156_1.jpg
+curl -k -o "BMW X3.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-x3_4157_1.jpg
+curl -k -o "BMW X4.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-x4_4158_1.jpg
+curl -k -o "BMW X5.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-x5_4159_1.jpg
+curl -k -o "BMW X6.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-x6_3286_1.jpg
+curl -k -o "BMW X7.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-x7_4160_1.jpg
+curl -k -o "BMW Z1.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-z1_3751_1.jpg
+curl -k -o "BMW Z3 coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-z3-coupe_318_1.jpg
+curl -k -o "BMW Z3 roadster.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-z3-roadster_319_1.jpg
+curl -k -o "BMW Z4 Coupe.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-z4-coupe_320_1.jpg
+curl -k -o "BMW Z4 roadster.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-z4-roadster_4161_1.jpg
+curl -k -o "BMW Z8.jpg" https://www.cars-data.com/pictures/thumbs/350px/bmw/bmw-z8_324_1.jpg
