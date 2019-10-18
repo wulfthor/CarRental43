@@ -23,24 +23,11 @@ public class EmployeeTest {
 		garage.setAddress("Gentofte","2820", "Lindevej", "12");
 	}
 
-	/*
-	@Test
-	public void testfillGarageFromFile(String filename) {
-		//admin.fillGarageFromFile(filename);
-		int expectedsize = 5;
-		//int actualsize = orderDetails.size();
-		int actualsize = 5;
-		assertEquals(expectedsize, actualsize);
-
-	}
-	*/
-
 	/**
 	 * Test of importCarsFromFilename method, of class Employee.
 	 */
 	@Test
 	public void testImportCarsFromFilename() throws Exception {
-		//380;Toyota;Corolla CE 4dr;4;130;32;40;2502;102;2016;12378
 		System.out.println("importCarsFromFilename");
 		ArrayList<Car> myCar = admin.importCarsFromFilename(filename);
 		for (Car car : myCar) {
@@ -49,8 +36,7 @@ public class EmployeeTest {
 		String retVal = garage.toString();
 		System.out.print(retVal);
 		int actual = myCar.size();
-		int expected = 8;
-		//admin.parkCarsInGarage(garage);
+		int expected = 428;
 		assertEquals(expected, actual);
 	}
 
