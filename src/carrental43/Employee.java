@@ -7,10 +7,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/**
- *
- * @author thor
- */
 public class Employee {
 	int empId;
 	String name;
@@ -19,6 +15,7 @@ public class Employee {
 	Car car;
 	Garage garage;
 	OrderForm orderForm;
+	Scanner myScan;
 	
 	public Employee(String name, String role) {
 		this.name = name;
@@ -26,93 +23,77 @@ public class Employee {
 		this.empId++;
 		this.customer = null;
 		this.car = null;
+		this.myScan = new Scanner(System.in);
+		this.garage = new Garage("Lyngby");
+	}
+
+
+	public void getCarsFromGarage( Garage garage) {
+		garage.showCars();
 	}
 	
-	public ArrayList<Car> importCarsFromFilename(String filename) throws FileNotFoundException {
-		ArrayList<Car> myImpCars = new ArrayList<>();
-		Car tmpCar = null;
-		/*
-		Data-reminder
-		
-		Obs;Make;Model;Cylinders;Horsepower;MPG_City;MPG_Highway;Weight;Wheelbase;Year;Milage
-		380;Toyota;Corolla CE 4dr;4;130;32;40;2502;102;2016;12378
-		String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year, int milage
-		*/
-		String line ="";
-		String[] lineArr = new String[12];
-		String[] typeArr = new String[3];
-		File myFH = new File(filename);
-		Scanner myScanner = new Scanner(myFH);
-		//must skip headers
-		myScanner.nextLine();
-		while (myScanner.hasNextLine()) {
-			int fieldcounter=1;
+	public void showMenu() throws FileNotFoundException {
+		int choice = 0;
+		while (choice != 7){
 			
-			String make = "";
-			String model = "";
-			String type = "";
-			int doors = 0;
-			int cyl = 0;
-			int HK = 0;
-			int MPG = 0;
-			int weight = 0;
-			int length = 0;
-			int year = 0;
-			int milage = 0;
-			
-			// now handle each field
-			line = myScanner.nextLine();
-			lineArr = line.split(";");
-			// handle make
-			make = lineArr[fieldcounter];
-			fieldcounter++;
-			// handle model,type and doors
-			typeArr = lineArr[fieldcounter].split(" ");
-			fieldcounter++;
-			int limit=typeArr.length;
-			int typecounter=0;
-			if (lineArr[2].contains("dr")) {
-				// TODO: should filter door-number with regex
-				// missing fields
-				doors = 2;
-				while(typecounter<limit-2) {
-					typecounter++;
-					model += typeArr[typecounter];
-				}
-			} else {
-				doors = 4;
-				while(typecounter<limit-1) {
-					typecounter++;
-					model += typeArr[typecounter];
-				}
+			System.out.println("Welcome to the car rental");
+			System.out.println("Main Menu - enter a number");
+			System.out.println("0) Init");
+			System.out.println("1) Show cars");
+			System.out.println("2) Get customer info");
+			System.out.println("3) Order car");
+			System.out.println("4) Import car");
+			System.out.println("5) Create garage");
+			System.out.println("6) Run statistics");
+			System.out.println("7) Exit");
+			System.out.println("Enter a number: ");
+			choice = myScan.nextInt();
+			switch(choice) {
+				case 0:
+					initGarage("Data/testcars.csv");
+					break;
+				case 1:
+					showCars();
+					break;
+				case 2:
+					getCustomerInfo();
+					break;
+				case 3:
+					orderCarRental();
+					break;
+				case 4:
+					importCarFromFile();
+					break;
+				case 5:
+					createGarage();
+					break;
+				case 6:
+					runStats();
+					break;
 			}
-			// handle cyl
-			cyl = Integer.parseInt(lineArr[fieldcounter]);
-			fieldcounter++;
-			// handle horsepower
-			HK = Integer.parseInt(lineArr[fieldcounter]);
-			fieldcounter++;
-			// handle Miles Per Gallon and incr twice for skip next
-			MPG = Integer.parseInt(lineArr[fieldcounter]);
-			fieldcounter++;
-			fieldcounter++;
-			// handle Weight
-			weight = Integer.parseInt(lineArr[fieldcounter]);
-			fieldcounter++;
-			// handle wheelbase (længde mellem akslerne)
-			length = Integer.parseInt(lineArr[fieldcounter]);
-			fieldcounter++;
-			// handle year
-			year = Integer.parseInt(lineArr[fieldcounter]);
-			fieldcounter++;
-			// handle milage
-			milage = Integer.parseInt(lineArr[fieldcounter]);
-			fieldcounter++;
-			// now create car
-			tmpCar = new Car(make,model,type,doors,cyl,HK,MPG,weight,length,year,milage);
-			myImpCars.add(tmpCar);
 		}
-		return myImpCars;
+	}
+
+	public void showCars(){
+		int retFromCar = 0;
+		while (retFromCar != -1) {
+			this.garage.showCars();
+			System.out.println("Enter number: (and -1 to return to main menu)");
+			retFromCar = myScan.nextInt();
+		}
+	}
+	public void getCustomerInfo(){
+	}
+	public void orderCarRental(){
+	}
+	public void importCarFromFile(){
+	}
+	public void createGarage(){
+	}
+	public void runStats(){
+	}
+	public void initGarage(String filename) throws FileNotFoundException {
+		this.garage.fillWithCars(filename);
 	}
 	
 	

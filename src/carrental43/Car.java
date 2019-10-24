@@ -22,6 +22,7 @@ public class Car {
 	int length;
 	int year;
 	int milage;
+	int id;
 	
 	public Car(String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year, int milage) {
 		this.make = make;
@@ -35,6 +36,10 @@ public class Car {
 		this.length = length;
 		this.year = year;
 		this.milage = milage;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 	
 	public String getMake() {
@@ -95,14 +100,15 @@ public class Car {
 		retVal+="\nMILAGE:" + milage;
 		return retVal;
 	}
-	public String toStringBasic() {
+	public String toString() {
 		String retVal = "";
-		retVal+="MAKE:" + make;
-		retVal+="\nMODEL:" + model;
-		retVal+="\nDOORS:" + doors;
-		retVal+="\nMilesPerGallon:" + MPG;
-		retVal+="\nYEAR:" + year;
-		retVal+="\nMILAGE:" + milage + "\n\n";
+		retVal+="ID: " + id;
+		retVal+=" MAKE:" + make;
+		retVal+=" MODEL:" + model;
+		retVal+=" DOORS:" + doors;
+		retVal+=" MilesPerGallon:" + MPG;
+		retVal+=" YEAR:" + year;
+		retVal+=" MILAGE:" + milage ;
 		return retVal;
 	}
 }
