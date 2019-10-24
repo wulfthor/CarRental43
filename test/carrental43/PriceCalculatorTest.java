@@ -39,9 +39,9 @@ public class PriceCalculatorTest {
 	@Test
 	public void testSomeMethod() {
 		// TODO review the generated test code and remove the default call to fail.
-		int expectedPrice = 1200;
-		int actualPrice = priceCalculator.getPrice();
-		assertEquals(expectedPrice, actualPrice);
+		double expectedPrice = 1280.0;
+		double actualPrice = priceCalculator.getPrice();
+		assertEquals(expectedPrice, actualPrice, 0.0001);
 	}
 	
 }
