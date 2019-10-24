@@ -81,6 +81,10 @@ public class Car {
 	public int getYear() {
 		return year;
 	}
+
+	public int getId() {
+		return id;
+	}
 	
 	public int getMilage() {
 		return milage;

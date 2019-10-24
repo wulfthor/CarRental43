@@ -2,6 +2,8 @@ package carrental43;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -26,8 +28,8 @@ public class Employee {
 		this.myScan = new Scanner(System.in);
 		this.garage = new Garage("Lyngby");
 	}
-
-
+	
+	
 	public void getCarsFromGarage( Garage garage) {
 		garage.showCars();
 	}
@@ -73,7 +75,7 @@ public class Employee {
 			}
 		}
 	}
-
+	
 	public void showCars(){
 		int retFromCar = 0;
 		while (retFromCar != -1) {
@@ -82,10 +84,59 @@ public class Employee {
 			retFromCar = myScan.nextInt();
 		}
 	}
+	
 	public void getCustomerInfo(){
 	}
 	public void orderCarRental(){
+		int choice = 0;
+		// get ordered car
+		// get details on carhire (name, pickup and deliver)
+		Car myCar = null;
+		while (choice != -1) {
+			System.out.println("Welcome to the oder car dialog");
+			System.out.println(" type -1 will return to main menu");
+			System.out.println("Enter number of the car you want: ");
+			int carChoice = myScan.nextInt();
+			while (myCar == null) {
+				myCar = garage.getCar(carChoice);
+			}
+			System.out.println("You have chosen: " + myCar);
+			System.out.println("Enter Date of pickup (YYYY-MM-DD): ");
+			String dateString = myScan.next();
+			LocalDate pickupDate = LocalDate.parse(dateString);
+			
+			System.out.println("Enter time of pickup (HH-MM): ");
+			String timeString = myScan.next();
+			LocalTime pickupTime = LocalTime.parse(timeString);
+			
+			System.out.println("Enter Date of return (YYYY-MM-DD): ");
+			String deliverDayString = myScan.next();
+			LocalDate deliverDate = LocalDate.parse(deliverDayString);
+			
+			System.out.println("Enter time of delivery (HH-MM): ");
+			String deliverString = myScan.next();
+			myScan.nextLine();
+			LocalTime deliverTime = LocalTime.parse(deliverString);
+			
+			System.out.println("Enter your email-address: ");
+			String customerEmail = myScan.nextLine();
+			
+			System.out.println("Enter your name: ");
+			String customerName = myScan.nextLine();
+			Order myOrder = new Order(pickupDate, pickupTime, deliverDate, deliverTime, customerEmail, customerName, car);
+			System.out.println("Order details: " );
+			System.out.println(myOrder);
+			myOrder.toString();
+			System.out.println("Do you want to edit order? (y/n) " );
+			String answer = myScan.nextLine();
+			if (answer.equals("y")) {
+				choice = -1;
+			} else {
+				choice = -1;
+			}
+		}
 	}
+	
 	public void importCarFromFile(){
 	}
 	public void createGarage(){

@@ -112,6 +112,17 @@ public class Garage {
 	public void addCar(Car car) {
 		carList.add(car);
 	}
+
+	public Car getCar(int carId) {
+		//TODO: create exception
+		Car retValCar = null;
+		for (Car car : carList) {
+			if (car.getId()==carId) {
+				return car;
+			}
+		}
+		return retValCar;
+	}
 	public void showCars() {
 		for (Car car : carList) {
 			System.out.println(car);
