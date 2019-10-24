@@ -17,6 +17,8 @@ public class Employee {
 	String role;
 	Customer customer;
 	Car car;
+	Garage garage;
+	OrderForm orderForm;
 	
 	public Employee(String name, String role) {
 		this.name = name;
