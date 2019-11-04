@@ -1,4 +1,4 @@
-package carrental43;
+package Main;
 public class IdFactory {
 	static int orderId;
 	static int carId;

@@ -3,8 +3,10 @@ the formula for a price:
 baseprice * cyl * (weight/1000) * (HK/10)
 num of days * baseprice
  */
-package carrental43;
+package Main;
 
+import Model.Car;
+import Model.Order;
 import java.time.Period;
 
 /**
@@ -27,7 +29,7 @@ public class PriceCalculator {
 	}
 
 	public int calcDays(Order order) {
-		Period days = order.pickupDate.until(order.deliverDate);
+		Period days = order.getPickupDate().until(order.getDeliverDate());
 		return days.getDays();
 	}
 

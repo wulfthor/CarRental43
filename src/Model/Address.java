@@ -1,4 +1,4 @@
-package carrental43;
+package Model;
 
 /**
  *

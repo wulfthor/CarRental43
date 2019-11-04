@@ -1,5 +1,6 @@
-package carrental43;
+package Model;
 
+import Main.IdFactory;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -12,15 +13,15 @@ import java.util.Date;
  */
 public class Order {
 	
-		String orderDateTime; 
-		LocalDate pickupDate; 
-		LocalTime pickupTime;
-		LocalDate deliverDate;
-		LocalTime deliverTime;
-		Customer customer;
-		double price;
-		Car car;
-		int orderId;
+		private String orderDateTime; 
+		private LocalDate pickupDate; 
+		private LocalTime pickupTime;
+		private LocalDate deliverDate;
+		private LocalTime deliverTime;
+		private Customer customer;
+		private double price;
+		private Car car;
+		private int orderId;
 
 	public Order(LocalDate pickupDate, LocalTime pickupTime, LocalDate deliverDate, LocalTime deliverTime, Car car) {
 		this.orderDateTime = new SimpleDateFormat("YYYY-MM-dd HH:mm").format(new Date());

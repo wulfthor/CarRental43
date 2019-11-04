@@ -1,5 +1,6 @@
-package carrental43;
+package Main;
 
+import Model.Order;
 import com.sun.corba.se.spi.activation.EndpointInfoListHolder;
 import java.io.BufferedWriter;
 import java.io.File;

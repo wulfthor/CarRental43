@@ -5,6 +5,8 @@
  */
 package carrental43;
 
+import Model.Customer;
+import Model.Address;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;

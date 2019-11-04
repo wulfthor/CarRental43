@@ -1,4 +1,4 @@
-package carrental43;
+package Model;
 
 import com.sun.javafx.scene.shape.PathUtils;
 import java.io.File;

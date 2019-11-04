@@ -1,5 +1,6 @@
 package carrental43;
 
+import Model.Car;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
