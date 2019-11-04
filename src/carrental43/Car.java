@@ -14,6 +14,7 @@ public class Car {
 	String make;
 	String model;
 	String type;
+	String regNr;
 	int doors;
 	int cyl;
 	int HK;
@@ -24,7 +25,7 @@ public class Car {
 	int milage;
 	int id;
 	
-	public Car(String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year, int milage) {
+	public Car(String make, String model, String type, int doors, int cyl, int HK, int MPG, int weight, int length, int year, int milage,String regNr) {
 		this.make = make;
 		this.model = model;
 		this.type = type;
@@ -36,11 +37,18 @@ public class Car {
 		this.length = length;
 		this.year = year;
 		this.milage = milage;
+		this.regNr = regNr;
+		this.id = IdFactory.getCarId();
 	}
 
 	public void setId(int id) {
 		this.id = id;
 	}
+
+	public String getRegNr() {
+		return regNr;
+	}
+	
 	
 	public String getMake() {
 		return make;

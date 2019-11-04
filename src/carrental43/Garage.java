@@ -45,6 +45,7 @@ public class Garage {
 			String make = "";
 			String model = "";
 			String type = "";
+			String regNr = "";
 			int doors = 0;
 			int cyl = 0;
 			int id = 0;
@@ -102,8 +103,11 @@ public class Garage {
 			// handle milage
 			milage = Integer.parseInt(lineArr[fieldcounter]);
 			fieldcounter++;
+			// handle regNr
+			regNr = lineArr[fieldcounter];
+			fieldcounter++;
 			// now create car
-			tmpCar = new Car(make,model,type,doors,cyl,HK,MPG,weight,length,year,milage);
+			tmpCar = new Car(make,model,type,doors,cyl,HK,MPG,weight,length,year,milage,regNr);
 			tmpCar.setId(id);
 			carList.add(tmpCar);
 		}

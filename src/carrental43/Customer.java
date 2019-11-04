@@ -33,4 +33,24 @@ public class Customer {
 
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public String getCustType() {
+		return custType;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public String getCountry() {
+		return Country;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
 }

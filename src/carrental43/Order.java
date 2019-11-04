@@ -1,7 +1,10 @@
 package carrental43;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  *
@@ -9,28 +12,33 @@ import java.time.LocalTime;
  */
 public class Order {
 	
+		String orderDateTime; 
 		LocalDate pickupDate; 
 		LocalTime pickupTime;
 		LocalDate deliverDate;
 		LocalTime deliverTime;
-		String customerEmail;
-		String customerName;
+		Customer customer;
+		double price;
 		Car car;
 		int orderId;
 
-	public Order(LocalDate pickupDate, LocalTime pickupTime, LocalDate deliverDate, LocalTime deliverTime, String customerEmail, String customerName, Car car) {
+	public Order(LocalDate pickupDate, LocalTime pickupTime, LocalDate deliverDate, LocalTime deliverTime, Car car) {
+		this.orderDateTime = new SimpleDateFormat("YYYY-MM-dd HH:mm").format(new Date());
 		this.pickupDate = pickupDate;
 		this.pickupTime = pickupTime;
 		this.deliverDate = deliverDate;
 		this.deliverTime = deliverTime;
-		this.customerEmail = customerEmail;
-		this.customerName = customerName;
 		this.car = car;
+		this.price = 0;
 		this.orderId = IdFactory.getOrderId();
 	}
 
 	public void writeOrderToFile(String filename) {
 
+	}
+
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
 	}
 
 	public LocalDate getPickupDate() {
@@ -68,22 +76,55 @@ public class Order {
 	public Car getCar() {
 		return car;
 	}
+	public double getPrice() {
+		return this.price;
+	}
 
-	public void setCar(Car car) {
-		this.car = car;
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public String toStringtoFile() {
+		String retString = "";
+		retString+= orderId + ";";
+		retString+= orderDateTime + ";";
+		retString+= price + ";";
+		retString += pickupDate + ";";
+		retString+= pickupTime + ";";
+		retString+= deliverDate + ";";
+		retString+= deliverTime + ";";
+		retString+= customer.getEmail()+ ";";
+		retString+= customer.getName()+ ";";
+		retString+= car.getId()+ ";";
+		retString+= car.getMake()+ ";";
+		retString+= car.getRegNr() + ";";
+		return retString;
+	}
+
+	public String getOrderDateTime() {
+		return orderDateTime;
+	}
+
+	public Customer getCustomer() {
+		return customer;
+	}
+
+	public int getOrderId() {
+		return orderId;
 	}
 
 	@Override
 	public String toString() {
 		String retString = "";
 		retString+= "orderId: " + orderId;
+		retString+= "orderedAt: " + orderDateTime;
+		retString+= "price: " + price;
 		retString += "pickupDate:  " + pickupDate;
 		retString+= "pickupTime: " + pickupTime;
 		retString+= "deliverDate: " + deliverDate;
-		retString+= "deliverTime: " + deliverTime + "\n";
-		retString+= "customerEmail: " + customerEmail;
-		retString+= "customerName: " + customerName;
-		retString+= "car: " + orderId + "\n";
+		retString+= "deliverTime: " + deliverTime ;
+		retString+= "customerEmail: " + customer.getEmail();
+		retString+= "customerName: " + customer.getName();
+		retString+= "car: " + car.getId() + ";" + car.getMake();
 		return retString;
 	}
 

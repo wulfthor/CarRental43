@@ -1,8 +1,15 @@
 package carrental43;
 public class IdFactory {
 	static int orderId;
+	static int carId;
 	static int customerId;
 	
+
+	public static int getCarId() {
+		carId += 1000;
+		carId++;
+		return carId;
+	}
 
 	public static int getOrderId() {
 		orderId += 100;
