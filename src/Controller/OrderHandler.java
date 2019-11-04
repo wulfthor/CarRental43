@@ -1,4 +1,4 @@
-package Main;
+package Controller;
 
 import Model.Order;
 import com.sun.corba.se.spi.activation.EndpointInfoListHolder;

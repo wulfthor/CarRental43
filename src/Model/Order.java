@@ -1,6 +1,6 @@
 package Model;
 
-import Main.IdFactory;
+import Util.IdFactory;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;

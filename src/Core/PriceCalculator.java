@@ -3,7 +3,7 @@ the formula for a price:
 baseprice * cyl * (weight/1000) * (HK/10)
 num of days * baseprice
  */
-package Main;
+package Core;
 
 import Model.Car;
 import Model.Order;

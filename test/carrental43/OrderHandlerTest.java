@@ -1,9 +1,9 @@
 package carrental43;
 
-import Main.OrderHandler;
+import Controller.OrderHandler;
 import Model.Order;
 import Model.Car;
-import Main.PriceCalculator;
+import Core.PriceCalculator;
 import Model.Customer;
 import Model.Address;
 import java.io.IOException;
@@ -73,6 +73,7 @@ public class OrderHandlerTest {
 		myCustomer.setAddress("Odense C","5000", "Vildgade", "12");
 		int orderId = 123;
 		myCar1 = new Car(make, model, type, doors, cyl, HK, MPG, weight, length, year, milage, regNr);
+		myCar1.setReturned("N");
 		myOrder = new Order(pickupDate, pickupTime, deliverDate, deliverTime, myCar1);
 		myOrder.setCustomer(myCustomer);
 		priceCalculator = new PriceCalculator(myCar1,myOrder);

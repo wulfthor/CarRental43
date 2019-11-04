@@ -2,7 +2,7 @@ package carrental43;
 
 import Model.Order;
 import Model.Car;
-import Main.PriceCalculator;
+import Core.PriceCalculator;
 import Model.Customer;
 import Model.Address;
 import java.time.LocalDate;

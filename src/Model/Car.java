@@ -5,7 +5,7 @@
 */
 package Model;
 
-import Main.IdFactory;
+import Util.IdFactory;
 
 /**
  *
@@ -17,6 +17,7 @@ public class Car {
 	String model;
 	String type;
 	String regNr;
+	String returned;
 	int doors;
 	int cyl;
 	int HK;
@@ -41,11 +42,21 @@ public class Car {
 		this.milage = milage;
 		this.regNr = regNr;
 		this.id = IdFactory.getCarId();
+		this.returned = "Y";
 	}
 
 	public void setId(int id) {
 		this.id = id;
 	}
+
+	public String getReturned() {
+		return returned;
+	}
+
+	public void setReturned(String returned) {
+		this.returned = returned;
+	}
+
 
 	public String getRegNr() {
 		return regNr;
